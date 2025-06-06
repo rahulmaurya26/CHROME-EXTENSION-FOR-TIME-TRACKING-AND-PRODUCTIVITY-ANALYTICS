@@ -32,4 +32,8 @@
 
       The second backend script, fetch_data.php, is responsible for serving usage data to the popup. It accepts a query parameter (type) which determines whether to return today’s data (live) or the past 7 days           (weekly). The script groups and sums durations by site, then returns the data as JSON.
 
-      To enhance the usefulness of the report, the backend also classifies each site as Productive, Unproductive, or Neutral using a predefined list of domains. For example, sites like GitHub or Stack Overflow are        considered productive, while Facebook or YouTube are marked unproductive.
+      To enhance the usefulness of the report, the backend also classifies each site as Productive, Unproductive, or Neutral using a predefined list of domains. For example, sites like GitHub or Stack Overflow are        considered productive, while Facebook or YouTube are marked unproductive.  
+  ## Data Flow and Integration
+     The flow of data is seamless: user behavior is captured in the browser, sent to the backend server, stored in a database, and finally fetched by the UI to be presented to the user. Everything is done using local resources (localhost), ensuring that no external services are involved
+  ## Conclusion
+     This project is a simple but effective tool for web usage analytics. It combines browser scripting, UI rendering, PHP-based API handling, and MySQL data storage in a full-stack setup. It’s ideal for productivity analysis, parental monitoring, or self-awareness of browsing habits. With small improvements, such as login authentication or category customization, this project can evolve into a professional-grade productivity tool.
