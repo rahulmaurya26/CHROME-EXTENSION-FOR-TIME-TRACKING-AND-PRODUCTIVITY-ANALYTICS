@@ -1,5 +1,19 @@
 # CHROME-EXTENSION-FOR-TIME-TRACKING-AND-PRODUCTIVITY-ANALYTICS
 
+  COMPANY : CODTECH IT SOLUTIONS PVT. LTD.
+
+  NAME : RAHUL MAURYA
+
+  INTERN ID : CT08DA939
+
+  DOMAIN : FULL STACK WEB DEVELOPMENT
+
+  DURATION : 8 WEEKS
+
+  MENTOR : NEELA SANTHOSH KUMAR
+
+ # Task Description:CHROME-EXTENSION-FOR-TIME-TRACKING-AND-PRODUCTIVITY-ANALYTICS
+
   ## Web Time Tracker
        Web Time Tracker is a Chrome extension project designed to monitor the amount of time a user spends on various websites. The goal is to help users understand their web usage patterns by collecting and 
        displaying time-based analytics in an organized and categorized way. The system includes both frontend and backend components, working together to track, store, and display usage data.
