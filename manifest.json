@@ -1,0 +1,29 @@
+{
+  // Name of the Chrome extension
+  "name": "Web Time Tracker",
+
+  // Version number of the extension
+  "version": "1.0",
+
+  //Specifies the version of the manifest file format (v3 is the latest)
+  "manifest_version": 3,
+
+  // Permissions the extension needs:
+  // - storage: to save and retrieve data locally
+  // - activeTab: to access the currently active browser tab
+  // - scripting: to run scripts in web pages
+  "permissions": ["storage", "activeTab", "scripting"],
+
+  // Host permissions: allows the extension to interact with web pages 
+  // at the specified URL pattern (e.g., local development server)
+  "host_permissions": ["http://localhost/*"],
+
+  // Defines the extension’s action (usually seen in the toolbar)
+  "action": {
+    // File to show when the extension icon is clicked
+    "default_popup": "popup.html",
+
+    // Icon to display in the Chrome toolbar
+    "default_icon": "icon.png"
+  }
+}

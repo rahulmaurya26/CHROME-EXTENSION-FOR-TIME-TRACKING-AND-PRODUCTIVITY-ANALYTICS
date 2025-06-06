@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Usage Analytics</title>
+  <style>
+    /* Basic page styling */
+    body { 
+      font-family: Arial, sans-serif; 
+      width: 320px; 
+      padding: 10px; 
+    }
+
+    /* Style for buttons */
+    button {
+      margin-right: 10px;
+      padding: 6px 12px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      background-color: #f4f4f4;
+    }
+
+    /* Style for the active button (highlighted) */
+    button.active {
+      background-color: #007bff;
+      color: white;
+      border-color: #007bff;
+    }
+
+    /* Container with fixed max height and vertical scroll */
+    #tableContainer {
+      max-height: 300px; 
+      overflow-y: auto;
+      margin-top: 10px;
+      border: 1px solid #ddd; 
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    /* Cells padding and border */
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    /* Sticky table header */
+    th {
+      background: #f4f4f4;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <!-- Heading -->
+  <h2>Usage Analytics</h2>
+
+  <!-- Buttons for toggling between Today and Weekly views -->
+  <div>
+    <button id="liveBtn" class="active">Today</button>
+    <button id="weeklyBtn">Weekly</button>
+  </div>
+
+  <!-- Scrollable table container -->
+  <div id="tableContainer">
+    <table id="usageTable">
+      <!-- Table header -->
+      <tr><th>Site</th><th>Time (s)</th><th>Category</th></tr>
+    </table>
+  </div>
+
+  <!-- Link to external JavaScript file that will populate/update the table -->
+  <script src="popup.js"></script>
+</body>
+</html>
