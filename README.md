@@ -62,5 +62,7 @@
      It combines browser scripting, UI rendering, PHP-based API handling, and MySQL data storage in a full-stack setup.
      
      It’s ideal for productivity analysis, parental monitoring, or self-awareness of browsing habits. With small improvements, such as login authentication or category customization, this project can evolve into a professional-grade productivity tool.
+     
 #Output
-  https://github.com/rahulmaurya26/CHROME-EXTENSION-FOR-TIME-TRACKING-AND-PRODUCTIVITY-ANALYTICS/issues/1#issue-3130859055
+
+
