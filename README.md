@@ -64,5 +64,5 @@
      It’s ideal for productivity analysis, parental monitoring, or self-awareness of browsing habits. With small improvements, such as login authentication or category customization, this project can evolve into a professional-grade productivity tool.
      
 #Output
-
+![Image](https://github.com/user-attachments/assets/aa0e97c8-73ae-4023-b08f-2e64cce42daf)
 
